@@ -1,13 +1,16 @@
 /* Medium class screen sizes & breakpoints Windows apps */
 @media screen 
     and (min-device-width: 641px)
-    and (max-device-width: 1007px) {
+    and (max-device-width: 1199px) {
      
         .hero-description {
             padding: 0 15px;
             text-align: center;
         }
 
+        .hero-title {
+            text-align: center;
+        }
 
         .restoran-section {
             grid-template-columns: repeat(2, 1fr);
@@ -15,7 +18,7 @@
 
     @media screen
         and (min-device-width: 641px)
-        and (max-device-width: 850px) {
+        and (max-device-width: 950px) {
             .card-description {
                 font-size: 12px;
             }

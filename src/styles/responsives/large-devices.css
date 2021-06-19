@@ -1,14 +1,25 @@
 /* Large class screen sizes & breakpoints Windows apps */
 @media screen 
-    and (min-device-width: 1008px) {
+    and (min-device-width: 1200px) {
 
     .container {
         max-width: 1200px;
     }
 
+    .hero-description {
+        margin-top: 260px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .hero-tagline {
+        font-size: 1.5rem;
+    }
+
     .restoran-section {
         grid-template-columns: repeat(3, 1fr);
-    }
-    
-
+    }    
 }
